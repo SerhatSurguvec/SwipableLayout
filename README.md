@@ -42,6 +42,18 @@ After add these lines to your swiping activity theme , then enjoy!!
       <item name="android:windowAnimationStyle">@null</item>
 ```
 
+Add layout close listener to do an action/actions
+```java
+      swipeableLayout.setOnLayoutCloseListener(new SwipeableLayout.OnLayoutCloseListener() {
+            @Override
+            public void OnLayoutClosed() {
+                //TODO finish or do smth
+            }
+        });
+```
+
+
+
 Problems </br>
 
 Please use lastest support sdk
