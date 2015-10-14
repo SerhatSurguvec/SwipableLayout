@@ -1,0 +1,4 @@
+<resources>
+
+    <dimen name="grid_spacing">4dp</dimen>
+</resources>
