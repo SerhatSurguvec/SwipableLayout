@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile ‘com.serhatsurguvec.libraries:swipablelayout:0.0.1'
+    compile 'com.serhatsurguvec.libraries:swipablelayout:0.0.1'
 }
 ```
 How To Use </br>
@@ -44,7 +44,8 @@ After add these lines to your swiping activity theme , then enjoy!!
 
 Add layout close listener to do an action/actions
 ```java
-      swipeableLayout.setOnLayoutCloseListener(new SwipeableLayout.OnLayoutCloseListener() {
+        SwipeableLayout swipeableLayout = (SwipeableLayout) findViewById(R.id.swipableLayout);
+        swipeableLayout.setOnLayoutCloseListener(new SwipeableLayout.OnLayoutCloseListener() {
             @Override
             public void OnLayoutClosed() {
                 //TODO finish or do smth
