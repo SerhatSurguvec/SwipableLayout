@@ -1,21 +1,19 @@
 # SwipableLayout
-Swipe up or down to close view or activity or anything.
+Swipe up or down to close view or activity or anything. See [example](https://github.com/SerhatSurguvec/SwipableLayout/tree/master/app/src/main).
 
 
 Download
+-------
+
+Gradle:
 
 ```groovy
-repositories {
-    maven {
-        url 'https://dl.bintray.com/serhatsurguvec/maven/'
-    }
-}
-
 dependencies {
     compile 'com.serhatsurguvec.libraries:swipablelayout:0.0.1'
 }
 ```
-How To Use </br>
+How to use
+-------
 
 ```xml
   <?xml version="1.0" encoding="utf-8"?>
@@ -53,12 +51,19 @@ Add layout close listener to do an action/actions
         });
 ```
 
+License
+-------
 
+    Copyright 2015 Serhat Sürgüveç.
 
-Problems </br>
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-Please use lastest support sdk
+       http://www.apache.org/licenses/LICENSE-2.0
 
-License</br>
-
-This project under Apache 2.0 License. Please see license.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
