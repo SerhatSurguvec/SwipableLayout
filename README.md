@@ -1,11 +1,22 @@
 # SwipableLayout
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.serhatsurguvec.libraries/swipablelayout/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.serhatsurguvec.libraries/swipablelayout)
+[![API](https://img.shields.io/badge/API-8%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=8)
+
 Swipe up or down to close view or activity or anything. See [example](https://github.com/SerhatSurguvec/SwipableLayout/tree/master/app/src/main).
 
 
 Download
 -------
+You can also depend on the library through Maven:
 
-Gradle:
+```xml
+<dependency>
+    <groupId>com.serhatsurguvec.libraries</groupId>
+    <artifactId>swipablelayout</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
+or Gradle:
 
 ```groovy
 dependencies {
