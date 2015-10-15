@@ -4,6 +4,8 @@
 
 Swipe up or down to close view or activity or anything. See [example](https://github.com/SerhatSurguvec/SwipableLayout/tree/master/app/src/main).
 
+![](https://github.com/SerhatSurguvec/SwipableLayout/blob/master/screenshot.gif)
+
 
 Download
 -------
